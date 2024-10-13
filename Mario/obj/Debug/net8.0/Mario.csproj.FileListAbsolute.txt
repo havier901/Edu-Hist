@@ -1,0 +1,14 @@
+C:\Users\Havi\OneDrive\Documents\Mario\bin\Debug\net8.0\Mario.exe
+C:\Users\Havi\OneDrive\Documents\Mario\bin\Debug\net8.0\Mario.deps.json
+C:\Users\Havi\OneDrive\Documents\Mario\bin\Debug\net8.0\Mario.runtimeconfig.json
+C:\Users\Havi\OneDrive\Documents\Mario\bin\Debug\net8.0\Mario.dll
+C:\Users\Havi\OneDrive\Documents\Mario\bin\Debug\net8.0\Mario.pdb
+C:\Users\Havi\OneDrive\Documents\Mario\obj\Debug\net8.0\Mario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Havi\OneDrive\Documents\Mario\obj\Debug\net8.0\Mario.AssemblyInfoInputs.cache
+C:\Users\Havi\OneDrive\Documents\Mario\obj\Debug\net8.0\Mario.AssemblyInfo.cs
+C:\Users\Havi\OneDrive\Documents\Mario\obj\Debug\net8.0\Mario.csproj.CoreCompileInputs.cache
+C:\Users\Havi\OneDrive\Documents\Mario\obj\Debug\net8.0\Mario.dll
+C:\Users\Havi\OneDrive\Documents\Mario\obj\Debug\net8.0\refint\Mario.dll
+C:\Users\Havi\OneDrive\Documents\Mario\obj\Debug\net8.0\Mario.pdb
+C:\Users\Havi\OneDrive\Documents\Mario\obj\Debug\net8.0\Mario.genruntimeconfig.cache
+C:\Users\Havi\OneDrive\Documents\Mario\obj\Debug\net8.0\ref\Mario.dll

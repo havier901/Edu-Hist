@@ -1,0 +1,59 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+    {% for stock in stocks %}
+        <h1>stock: {{ stock }} </h1>
+        <h1>shares: {{ sharecount[stock] }} </h1>
+        <h1>current price: {{ stockprice[stock] }} </h1>
+        <h1>value: {{ stockvalue[stock] }} </h1>
+    {% endfor %}
+    <h1>cash on hand: {{ cash }} </h1>
+    <h1> total value in stock: {{ totalstockvalue }}</h1>
+    <h1> total assets: {{ totalfunds }} </h1>
+    <h1>Stock Summary</h1>
+    <div></div>
+    <div></div>
+    <table>
+        <thead>
+            <tr>
+                <th>Stock</th>
+                <th>Shares</th>
+                <th>Current Price</th>
+                <th>Total Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for stock in stocks %}
+                {% if sharecount[stock] > 0 %}
+                    <tr>
+                        <td>{{ stock }}</td>
+                        <td>{{ sharecount[stock] }}</td>
+                        <td>{{ stockprice[stock] }}</td>
+                        <td>{{ (stockvalue[stock]) }}</td>
+                {% endif %}
+            {% endfor %}
+            <tr>
+                <td></td>
+                <td></td>
+                <td>STOCK TOTAL</td>
+                <td>{{ totalstockvalue }}</td>
+            </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>CASH</td>
+                    <td>{{ cash }}</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>TOTAL ASSETS</td>
+                    <td>{{ totalfunds }}</td>
+                </tr>
+        </tbody>
+    </table>
+{% endblock %}

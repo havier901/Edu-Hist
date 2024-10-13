@@ -1,0 +1,39 @@
+import AsyncStorage from "@react-native-async-storage/async-storage";
+
+import { createContext, useEffect, useState } from "react";
+
+//Note: firebase tokens automatically expire after one hour. To workaround this
+// Either use Firbases refreshtoken (store it here in context), or use an SDK which
+// will automatically handle refreshing tokents for you
+
+export const AuthContext = createContext({
+  token: "",
+  isAuthenticated: false,
+  authenticate: (token) => {},
+  logout: () => {},
+});
+
+function AuthContextProvider({ children }) {
+  const [authToken, setAuthToken] = useState();
+
+  function authenticate(token) {
+    setAuthToken(token);
+    AsyncStorage.setItem("token", token); //Package must be converted to string, objects to JSON
+  }
+
+  function logout() {
+    setAuthToken(null);
+    AsyncStorage.removeItem('token');
+  }
+
+  const value = {
+    token: authToken,
+    isAuthenticated: !!authToken,
+    authenticate: authenticate,
+    logout: logout,
+  };
+
+  return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
+}
+
+export default AuthContextProvider;

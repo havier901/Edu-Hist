@@ -1,0 +1,14 @@
+C:\Users\Havi\OneDrive\Documents\TECH901HELLO\TECH901HELLO\bin\Debug\net8.0\TECH901HELLO.exe
+C:\Users\Havi\OneDrive\Documents\TECH901HELLO\TECH901HELLO\bin\Debug\net8.0\TECH901HELLO.deps.json
+C:\Users\Havi\OneDrive\Documents\TECH901HELLO\TECH901HELLO\bin\Debug\net8.0\TECH901HELLO.runtimeconfig.json
+C:\Users\Havi\OneDrive\Documents\TECH901HELLO\TECH901HELLO\bin\Debug\net8.0\TECH901HELLO.dll
+C:\Users\Havi\OneDrive\Documents\TECH901HELLO\TECH901HELLO\bin\Debug\net8.0\TECH901HELLO.pdb
+C:\Users\Havi\OneDrive\Documents\TECH901HELLO\TECH901HELLO\obj\Debug\net8.0\TECH901HELLO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Havi\OneDrive\Documents\TECH901HELLO\TECH901HELLO\obj\Debug\net8.0\TECH901HELLO.AssemblyInfoInputs.cache
+C:\Users\Havi\OneDrive\Documents\TECH901HELLO\TECH901HELLO\obj\Debug\net8.0\TECH901HELLO.AssemblyInfo.cs
+C:\Users\Havi\OneDrive\Documents\TECH901HELLO\TECH901HELLO\obj\Debug\net8.0\TECH901HELLO.csproj.CoreCompileInputs.cache
+C:\Users\Havi\OneDrive\Documents\TECH901HELLO\TECH901HELLO\obj\Debug\net8.0\TECH901HELLO.dll
+C:\Users\Havi\OneDrive\Documents\TECH901HELLO\TECH901HELLO\obj\Debug\net8.0\refint\TECH901HELLO.dll
+C:\Users\Havi\OneDrive\Documents\TECH901HELLO\TECH901HELLO\obj\Debug\net8.0\TECH901HELLO.pdb
+C:\Users\Havi\OneDrive\Documents\TECH901HELLO\TECH901HELLO\obj\Debug\net8.0\TECH901HELLO.genruntimeconfig.cache
+C:\Users\Havi\OneDrive\Documents\TECH901HELLO\TECH901HELLO\obj\Debug\net8.0\ref\TECH901HELLO.dll

@@ -1,0 +1,12 @@
+sort1 uses: bubble sort
+
+How do you know?:
+it was bad on random and reversed, but ok on pre-sorted data
+
+sort2 uses: merge sort
+
+How do you know?: it was best on random data.
+
+sort3 uses: selection sort
+
+How do you know?: it was worst on already sorted data

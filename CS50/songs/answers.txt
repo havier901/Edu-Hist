@@ -1,0 +1,2 @@
+1. I would characterize the listener's aura as a bit frenzied, yet despondent, as their danceability and energy averages are fairly close to the max, and yet their average valence is quite far from the max.
+2. I think the formula for finding the aura is fine, but the data pool, i.e. the amount of songs, should be more.
